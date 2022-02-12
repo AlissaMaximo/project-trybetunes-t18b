@@ -17,8 +17,8 @@ class Login extends Component {
   checkMinimum = () => {
     const { login } = this.state;
     const inputLoginLength = login.length;
-    const numberThree = 3;
-    if (inputLoginLength >= numberThree) {
+    const NUMBER_THREE = 3;
+    if (inputLoginLength >= NUMBER_THREE) {
       this.setState({ buttonAbledDisabled: false });
     } else {
       this.setState({ buttonAbledDisabled: true });
