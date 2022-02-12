@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
-import Loading from './Loading';
+import Loading from '../components/Loading';
 import { createUser } from '../services/userAPI';
 
 /* Para checar se o input contém minimamente 3 caracteres em seu valor, passar o valor para o state a cada vez que muda. */
@@ -32,7 +32,8 @@ class Login extends Component {
   };
 
   // Quando clica no botão de Entrar torna o isItLoading true para poder renderizar o componente Loading.
-  handleLoginButton = async () => {
+  handleLoginButton = async (event) => {
+    event.preventDefault();
     const { login } = this.state;
     this.setState({ isItLoading: true });
     await createUser({ name: login });
@@ -59,7 +60,7 @@ class Login extends Component {
             data-testid="login-submit-button"
             disabled={ buttonAbledDisabled }
             onClick={
-              () => this.handleLoginButton()
+              (event) => this.handleLoginButton(event)
             }
           >
             Entrar
