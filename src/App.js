@@ -26,4 +26,14 @@ class App extends React.Component {
   }
 }
 
+/*
+REFERÊNCIAS
+Caio Swame ajudou-me no requisito 2 e 3.
+Lucas Pimentel ajudou-me no requisito 3.
+José Vinícius (Zé) ajudou-me no requisito 4.
+
+Links:
+Para o Requisito 2: https://stackoverflow.com/questions/45089386/what-is-the-best-way-to-redirect-a-page-using-react-router
+*/
+
 export default App;
