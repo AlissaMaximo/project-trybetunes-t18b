@@ -27,6 +27,7 @@ class App extends React.Component {
 }
 
 /*
+
 REFERÊNCIAS
 Pessoas:
 Caio Swame ajudou-me nos Requisitos 2, 3, 7, 8 e 9.
