@@ -35,6 +35,7 @@ class Album extends Component {
     if (songs.length !== 0) {
       return songs.map(({ previewUrl, trackName, trackId }) => (<MusicCard
         key={ trackId }
+        trackId={ trackId }
         previewUrl={ previewUrl }
         trackName={ trackName }
       />));
