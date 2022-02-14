@@ -35,6 +35,7 @@ José Vinícius (Zé) ajudou-me no Requisito 4.
 
 Links:
 Para o Requisito 2: https://stackoverflow.com/questions/45089386/what-is-the-best-way-to-redirect-a-page-using-react-router
+Para o Requisito 6: https://stackoverflow.com/questions/54401481/eslint-missing-key-prop-for-element-in-iterator-react-jsx-key , analisei o código de Rafael Alves: https://github.com/tryber/sd-018-b-project-trybetunes/pull/65/files , https://medium.com/reactbrasil/renderiza%C3%A7%C3%A3o-condicional-em-react-bb8c16dddd6f
 */
 
 export default App;
