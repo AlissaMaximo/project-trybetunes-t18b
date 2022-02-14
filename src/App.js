@@ -29,7 +29,7 @@ class App extends React.Component {
 /*
 REFERÊNCIAS
 Pessoas:
-Caio Swame ajudou-me nos Requisitos 2, 3, 7 e 8.
+Caio Swame ajudou-me nos Requisitos 2, 3, 7, 8 e 9.
 Lucas Pimentel ajudou-me no Requisito 3.
 José Vinícius (Zé) ajudou-me no Requisito 4.
 
